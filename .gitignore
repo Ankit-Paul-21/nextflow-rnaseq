@@ -1,0 +1,40 @@
+# Nextflow
+.nextflow/
+.nextflow.log*
+work/
+
+# Sequencing data
+data/
+
+# Reference files and indices
+reference/
+
+# Analysis outputs
+results/
+
+# Large bioinformatics files
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+*.sam
+*.bam
+*.bai
+*.bt2
+*.ht2
+*.ht2l
+*.fai
+
+# Temporary files
+*.tmp
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
